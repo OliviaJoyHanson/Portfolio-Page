@@ -24,6 +24,7 @@ footer {
 }
 
 .container {
+    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 2fr 1fr auto 1fr 1fr;
     grid-template-areas: 
@@ -31,4 +32,11 @@ footer {
         "nav"
         "main"
         "footer";
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
 }
